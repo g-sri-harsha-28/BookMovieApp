@@ -1,18 +1,18 @@
-.upcomingMoviesHeading {
+.upcoming-movie-heading {
     text-align: "center";
     background-color: "#ff9999";
     padding: "8px";
     font-size: "1rem";
 }
 
-.gridListUpcomingMovies {
+.grid-list-movies {
     flex-wrap: "nowrap";
     transform: "translateZ(0)";
     width: "100%";
 
 }
 
-.gridListMain {
+.grid-list-main {
     transform: "translateZ(0)";
     cursor: pointer;
 }
