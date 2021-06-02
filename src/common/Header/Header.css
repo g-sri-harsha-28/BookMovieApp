@@ -5,11 +5,32 @@
 }
 
 .header-logo {
-    animation: app-logo-spin infinite 8s linear;
+    animation: header-logo-spin infinite 8s linear;
     height: 35px;
     background: #ff7f7f;
 }
 
 @keyframes header-logo-spin {
     from { transform: scaleX(-1); }
+}
+
+.btn-login {
+    float: right;
+}
+
+.btn-bookShow {
+    float: right;
+    margin-right: 8px;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.displayNone {
+    display: none;
+}
+
+.displayBlock {
+    display: block;
 }
